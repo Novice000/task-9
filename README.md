@@ -22,10 +22,6 @@ The function was originally implemented but required type improvements. The foll
    - Ensured that the `criteria` argument only accepts relevant fields for the given `personType`.
    - Used `Partial<User>` when filtering users and `Partial<Admin>` for admins.
 
-3. **Type Safety Improvements:**
-   - Excluded filtering by the `type` property to prevent unnecessary redundancy.
-   - Strengthened TypeScript typings for better type inference and safety.
-
 ## Usage Example
 
 ```typescript
